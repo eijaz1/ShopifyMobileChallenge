@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    tools:context="me.eijaz.shopifyapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title_order_by_province"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/category_heading"
+            android:text="@string/orders_by_province_heading" />
+
+        <TextView
+            android:id="@+id/tv_alabama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/province_subheading"/>
+
+        <TextView
+            android:id="@+id/tv_alaska"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/province_subheading"/>
+
+        <TextView
+            android:id="@+id/tv_arkansas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/province_subheading"/>
+
+        <TextView
+            android:id="@+id/tv_arizona"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/province_subheading"/>
+
+        <TextView
+            android:id="@+id/tv_california"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/province_subheading"/>
+
+        <TextView
+            android:id="@+id/tv_colorado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/province_subheading"/>
+
+        <TextView
+            android:id="@+id/tv_connecticut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/province_subheading"/>
+
+        <TextView
+            android:id="@+id/tv_florida"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/province_subheading"/>
+
+        <TextView
+            android:id="@+id/tv_georgia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/province_subheading"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            style="@style/category_heading"
+            android:text="@string/orders_by_year_heading"/>
+
+        <TextView
+            android:id="@+id/tv_2017"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/year_subheading"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_orders_2017"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tv_2016"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            style="@style/year_subheading"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_orders_2016"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

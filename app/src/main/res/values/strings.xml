@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Mobile Intern Challenge 2018</string>
+    <string name="orders_by_province_heading">Orders By Province</string>
+    <string name="orders_by_year_heading">Orders By Year</string>
+    <string name="sample_order_number">Order #: 99999999</string>
+    <string name="sample_order_name">Name: Demar Derozan</string>
+    <string name="orders_2017">%1d orders created in 2017</string>
+    <string name="orders_2016">%1d orders created in 2016</string>
+    <string name="orders_alabama">%1d orders from Alabama</string>
+    <string name="orders_alaska">%1d orders from Alaska</string>
+    <string name="orders_arkansas">%1d orders from Arkansas</string>
+    <string name="orders_arizona">%1d orders from Arizona</string>
+    <string name="orders_california">%1d orders from California</string>
+    <string name="orders_colorado">%1d orders from Colorado</string>
+    <string name="orders_connecticut">%1d orders from Connecticut</string>
+    <string name="orders_florida">%1d orders from Florida</string>
+    <string name="orders_georgia">%1d orders from Georgia</string>
+    <string name="order_number">Order #: %1d</string>
+    <string name="order_name">Name: %1s %2s</string>
+    <string name="order_name_null">Name:</string>
+</resources>
